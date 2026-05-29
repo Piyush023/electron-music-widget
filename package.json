@@ -1,0 +1,13 @@
+{
+  "name": "musicbar",
+  "version": "1.0.0",
+  "description": "Mac music controller - menu bar app",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "node scripts/patch-electron-plist.js"
+  },
+  "devDependencies": {
+    "electron": "^42.3.0"
+  }
+}
